@@ -26,3 +26,8 @@ vim.opt.wrap = true
 
 vim.g.loaded_newtrw = 1
 vim.g.loaded_netrwPlugin = 1
+
+vim.opt.smartcase = true
+vim.opt.ignorecase = true
+
+vim.opt.guicursor = "i:block"
