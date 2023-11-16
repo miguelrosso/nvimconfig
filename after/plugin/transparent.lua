@@ -1,1 +1,3 @@
--- require("transparent").setup({})
+require("transparent").setup({})
+
+vim.cmd "TransparentDisable"
