@@ -34,3 +34,6 @@ vim.opt.termguicolors = true
 vim.opt.cursorline = true
 
 vim.g.monochrome_italic_comments = 1
+
+vim.opt.list = true
+vim.opt.listchars="space:·,trail:·,tab:>·"
