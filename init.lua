@@ -40,6 +40,7 @@ require("lazy").setup({
     { "neovim/nvim-lspconfig" },
     { "hrsh7th/cmp-nvim-lsp" },
     { "hrsh7th/nvim-cmp" },
+    { "ryanoasis/vim-devicons" },
     -- themes
     "rebelot/kanagawa.nvim",
     "neanias/everforest-nvim",
@@ -139,6 +140,8 @@ vim.opt.list = true
 vim.opt.listchars="space:·,trail:·,tab:>·"
 
 vim.cmd("colorscheme everforest")
+
+vim.opt.encoding = utf8
 
 -- remaps
 vim.keymap.set("n", "<leader>xx", vim.cmd.NvimTreeToggle, { noremap = true, silent = true })
